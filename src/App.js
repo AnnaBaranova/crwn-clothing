@@ -4,6 +4,7 @@ import './App.scss';
 
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
+import Header from './components/header/header';
 
 const HatsPage = () => (
   <div>
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App"> 
    <div>
+     <Header />
      <Switch>
      <Route exact path='/' component={HomePage}/>
      <Route path='/shop' component={ShopPage}/>
