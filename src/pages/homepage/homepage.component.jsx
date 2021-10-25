@@ -9,6 +9,6 @@ const HomePage = () => (
     <h1>Welcome to my Homepage</h1>
     <Directory />
     </div>
-);
+)
 
 export default HomePage;
